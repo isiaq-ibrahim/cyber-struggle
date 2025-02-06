@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JournalTwo">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/com_hijacking"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/com_hijacking"
+            android:scaleType="fitXY"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_two_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="What is COM Object?"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/com_hijacking"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:fontFamily="@font/poppins_bold"
+            />
+
+        <TextView
+            android:id="@+id/journal_two_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Microsoft Component Object Model (COM) is an interface standard that allows the software components to interact and communicate with each other’s code without knowledge of their internal implementation. Microsoft says"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13dp"
+            android:layout_below="@id/journal_two_1"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_two_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COM is a technology that allows objects to interact across process and computer boundaries as easily as within a single process"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13dp"
+            android:justificationMode="inter_word"
+            style="@style/TextAppearance.Material3.BodyLarge"
+            android:layout_below="@id/journal_two_2"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_two_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="It uses client/server architecture. COM clients are the programs that use COM objects, and the COM servers are the COM objects themselves. The COM server can be hosted either in a DLL (called an in-process server) or in an EXE (called an out-of-process server)."
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13dp"
+            android:layout_below="@id/journal_two_3"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/com_server_client"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/com_server_client"
+            android:layout_below="@id/journal_two_4"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:scaleType="fitXY"
+            android:layout_marginTop="15dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_two_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="COM objects ,can be created and used by in any languages, was designed to support reusable software components that could be utilized by all programs."
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13sp"
+            android:layout_below="@+id/com_server_client"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_two_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_two_6"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@+id/journal_two_5"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13sp"
+            />
+
+        <ImageView
+            android:id="@+id/com_hijack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/com_hijack"
+            android:layout_below="@+id/journal_two_6"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

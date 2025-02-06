@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JournalOne">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/challenges"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/challenges"
+            android:scaleType="fitXY"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_one_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_one_1"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/challenges"
+            android:textSize="13dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_one_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_two_2"
+            android:layout_below="@id/journal_one_1"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="16sp"
+            />
+
+        <TextView
+            android:id="@+id/journal_one_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_one_3"
+            android:layout_below="@id/journal_one_2"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_one_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neuroplasticity"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="16dp"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/journal_one_3"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_one_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_one_5"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13dp"
+            android:layout_below="@id/journal_one_4"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/neurons"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/neurons"
+            android:scaleType="fitXY"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@+id/journal_one_5"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_one_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="The Power of Yet!"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_below="@+id/neurons"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_one_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_one_7"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13sp"
+            android:layout_below="@id/journal_one_6"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/growthImageView"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:src="@drawable/growth"
+            android:scaleType="fitXY"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/journal_one_7"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_one_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_one_8"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13dp"
+            android:justificationMode="inter_word"
+            android:layout_below="@id/growthImageView"
+            android:layout_marginTop="10dp"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

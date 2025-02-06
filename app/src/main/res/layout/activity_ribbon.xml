@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RibbonActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/first_in_first_out"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:background="#000000"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ribbon_icon"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:id="@+id/dateTwentyOctober"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="FILO: First In Last Out"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/first_in_first_out"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/neverOutOfSight"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/first_in_first_out">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:background="#000000"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ribbon_icon"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:id="@+id/dateFourteenDecember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="INOF: I'm Never Out of the Fight"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/im_never_out_of_sight"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/rateLimitByPassCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/neverOutOfSight">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:background="#000000"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ribbon_icon"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:id="@+id/dateSeventeenSeptember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DEF: Discipline Equals Freedom"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/discipline_equal_freedom"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/credentialDumpingCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/rateLimitByPassCardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:background="#000000"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:src="@drawable/ribbon_icon"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="40dp"
+                    />
+
+                <TextView
+                    android:id="@+id/dateTwentyTwoJuly"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NMB: No Man Behind"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#ffffff"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/no_man_behind"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:textColor="#ffffff"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+
+</ScrollView>

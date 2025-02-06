@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1046460773850",
+    "project_id": "cyber-struggle",
+    "storage_bucket": "cyber-struggle.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1046460773850:android:bc4709c385896570863ce3",
+        "android_client_info": {
+          "package_name": "developer.boltech.technologies.cyberstruggle"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBV51bet7tRXGMRpNgyu22ZDbz1Yt9NFjI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

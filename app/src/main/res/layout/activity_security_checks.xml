@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <TextView
+        android:id="@+id/tvSecurityStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Security Checks"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        android:layout_marginBottom="20dp" />
+
+    <Button
+        android:id="@+id/btnRunSecurityChecks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Run Security Checks"
+        android:background="@color/teal_200"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/tvSecurityDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Results will appear here"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:layout_marginTop="20dp" />
+
+</LinearLayout>

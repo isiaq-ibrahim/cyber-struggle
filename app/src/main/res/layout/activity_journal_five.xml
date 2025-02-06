@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JournalFive">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/microsoft_ata"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/microsoft_ata"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="50dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_five_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="16dp"
+            android:layout_below="@id/microsoft_ata"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_five_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_five_2"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13dp"
+            android:layout_below="@id/journal_five_1"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_five_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_five_3"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_below="@id/journal_five_2"
+            android:layout_marginTop="10dp"
+            android:textSize="16dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_five_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_five_4"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/journal_five_3"
+            android:justificationMode="inter_word"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_five_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_five_5"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:textSize="13dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/journal_five_4"
+            />
+
+        <ImageView
+            android:id="@+id/ataevasion"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:src="@drawable/ataevasion"
+            android:layout_below="@id/journal_five_5"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

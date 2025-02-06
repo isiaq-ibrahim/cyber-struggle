@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/reverseTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/reverse_engineering_code_tampering"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Instruction -->
+    <TextView
+        android:id="@+id/reverseInstructions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Attempt code tampering by modifying the application binary."
+        android:gravity="center"
+        android:layout_marginTop="16dp" />
+
+    <!-- Button for Demo Action -->
+    <Button
+        android:id="@+id/demoTamperButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Perform Code Tampering Action"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

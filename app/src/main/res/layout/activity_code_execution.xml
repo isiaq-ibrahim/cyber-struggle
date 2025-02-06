@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Instruction Text -->
+    <TextView
+        android:id="@+id/execTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Code Injection Execution"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+
+    <!-- Code Input Field -->
+    <EditText
+        android:id="@+id/codeField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter command to execute"
+        android:inputType="text"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Execute Button -->
+    <Button
+        android:id="@+id/executeCodeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Execute Code"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Output Field -->
+    <TextView
+        android:id="@+id/outputField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Output will be displayed here"
+        android:gravity="center"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="40dp"
+        />
+
+</LinearLayout>

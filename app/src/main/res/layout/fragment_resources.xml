@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/journalCyberStruggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/changingMeaningCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/journalCyberStruggle">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/changing_meaning"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    />
+
+                <TextView
+                    android:id="@+id/dateTwentyOctober"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="20 October 2024"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Changing the Meaning of Processes and Challenges"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#2b2d50"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="In what situations and on which topics are we told that we are good? Or on which topics...              Read more>"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/comHijackingCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/changingMeaningCardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/microsoftcom"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    />
+
+                <TextView
+                    android:id="@+id/dateFourteenDecember"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="14 December 2021"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="COM Hijacking for Persistence"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#2b2d50"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="COM Object? The Microsoft Component Object Model (COM) is an interface standard that allows the software components to interact...              Read more>"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/microsoftAdvancedThreatCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/comHijackingCardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/microsoft_advance_threat_analytics"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    />
+
+                <TextView
+                    android:id="@+id/dateTwentyOneApril"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="21 April 2020"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Microsoft ATA Evasion (Over PTH, Golden Ticket)"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#2b2d50"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="During these quarantine times, our team focuses on creating new updated topics for courses, analyses evasion, and threat hunting...                       Read more>"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/microsoftSMBv3ThreatCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/microsoftAdvancedThreatCardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/microsoft_smbvthree"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    />
+
+                <TextView
+                    android:id="@+id/dateThirteenMarch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="13 March 2020"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Microsoft SMBv3 Remote Code Execution Vulnerability Overview CVE-2020-0796"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#2b2d50"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Microsoft released patches for CVE-2020-0796 SMBv3 RCE Microsoft’s advisory said a crafted SMBv3 packet could be used...                                                          Read more>"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/intelligencePlanningCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/microsoftSMBv3ThreatCardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/intelligence_planning"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    />
+
+                <TextView
+                    android:id="@+id/dateSixFebruary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="6 February 2020"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Intelligence Planning"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#2b2d50"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="The discipline of “Intelligence” is often assumed to be practiced only by governmental agencies. However, in the field of cybersecurity...                            Read more>"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/symantecEndpointCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            app:cardCornerRadius="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@+id/intelligencePlanningCardView">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginBottom="15dp"
+                android:padding="0dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    android:src="@drawable/symantec_endpoint"
+                    android:layout_gravity="center"
+                    android:scaleType="fitXY"
+                    />
+
+                <TextView
+                    android:id="@+id/dateThirdFebruary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="3 February 2020"
+                    android:textSize="12sp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginStart="20dp"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:fontFamily="@font/poppins_bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Symantec Endpoint Protection Bypass + Meterpreter Pivoting"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_marginEnd="20dp"
+                    android:textColor="#2b2d50"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="It is essential to keep your tactical, mechanical skills, and operational competence updated with researches and...                                Read more>"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginEnd="20dp"
+                    android:fontFamily="@font/poppins"
+                    android:textSize="12sp"
+                    android:justificationMode="inter_word"
+                    />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/fireEyeCardView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            app:cardCornerRadius="10dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_below="@+id/symantecEndpointCardView">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:padding="0dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="160dp"-->
+<!--                    android:src="@drawable/fire_eye_edrs"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/dateFourteenJanuary"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="14 January 2020"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:fontFamily="@font/poppins_bold"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:text="FireEye EDR Bypassed with Basic Process Injection"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:textColor="#2b2d50"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="During our SOC and Red Team researches, we like to give some time to understand the endpoints and their...                                                        Read more>"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:fontFamily="@font/poppins"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:justificationMode="inter_word"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/citrixADCCardView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            app:cardCornerRadius="10dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_below="@+id/fireEyeCardView">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:padding="0dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="160dp"-->
+<!--                    android:src="@drawable/citrix_netscaler"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/dateTwelvethJanuary"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="12 January 2020"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:fontFamily="@font/poppins_bold"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:text="Citrix ADC Remote Code Execution, CVE-2019-19781"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:textColor="#2b2d50"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Last month, a critical vulnerability in Citrix ADC and Citrix Gateway was published under CVE-2019-19781. The vulnerability caught our...                    Read more>"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:fontFamily="@font/poppins"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:justificationMode="inter_word"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/exploitImplicitCardView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            app:cardCornerRadius="10dp"-->
+<!--            android:layout_marginTop="15dp"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            android:layout_below="@+id/citrixADCCardView">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:layout_marginBottom="15dp"-->
+<!--                android:padding="0dp">-->
+
+<!--                <ImageView-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="160dp"-->
+<!--                    android:src="@drawable/nodejs_exploit"-->
+<!--                    android:layout_gravity="center"-->
+<!--                    android:scaleType="fitXY"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:id="@+id/dateThirteenNovember"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="13 November 2019"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:textColor="#000000"-->
+<!--                    android:fontFamily="@font/poppins_bold"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:text="Exploit Implicit Coercion Bugs in Node.js Applications"-->
+<!--                    android:textStyle="bold"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:textColor="#2b2d50"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Implicit type coercion conditions in dynamically typed programming languages has always lead to tricky outcomes. If you ever programmed...                                                       Read more>"-->
+<!--                    android:layout_marginStart="20dp"-->
+<!--                    android:layout_marginEnd="20dp"-->
+<!--                    android:fontFamily="@font/poppins"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:justificationMode="inter_word"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+    </RelativeLayout>
+
+</ScrollView>

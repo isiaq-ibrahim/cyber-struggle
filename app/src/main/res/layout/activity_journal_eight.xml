@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".JournalEight">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/symantecendpoint"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/symantecendpoint"
+            android:scaleType="fitXY"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="40dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_eight_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Introduction"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="16sp"
+            android:layout_below="@id/symantecendpoint"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/journal_eight_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_eight_2"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_below="@id/journal_eight_1"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13sp"
+            />
+
+        <ImageView
+            android:id="@+id/symantecend_one"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/symantec_one"
+            android:scaleType="fitXY"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/journal_eight_2"
+            />
+
+        <TextView
+            android:id="@+id/journal_eight_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_eight_3"
+            android:layout_below="@+id/symantecend_one"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13sp"
+            android:layout_marginTop="10dp"
+            />
+
+        <ImageView
+            android:id="@+id/symantecend_two"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/symantec_two"
+            android:scaleType="fitXY"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/journal_eight_3"
+            />
+
+        <TextView
+            android:id="@+id/journal_eight_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_eight_4"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/symantecend_two"
+            />
+
+        <ImageView
+            android:id="@+id/symantecend_four"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:src="@drawable/symantec_four"
+            android:scaleType="fitXY"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@id/journal_eight_4"
+            />
+
+        <TextView
+            android:id="@+id/journal_eight_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/journal_eight_5"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="13sp"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/symantecend_four"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>

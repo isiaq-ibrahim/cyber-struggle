@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/cyber_struggle_about_logo"
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/cyber_struggle_cool_eagle"
+            />
+
+        <TextView
+            android:id="@+id/about_cyber_struggle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/cyber_struggle_about_logo"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="About cyber struggle"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/cyber_struggle_description_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/about_cyber_struggle"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:text="@string/cyber_struggle_description_1"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cyber_struggle_description_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cyber_struggle_description_one"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:text="@string/cyber_struggle_description_2"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/cyber_struggle_description_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/cyber_struggle_description_two"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:text="@string/cyber_struggle_description_3"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/our_milestones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Milestones"
+            android:fontFamily="@font/poppins_black"
+            android:layout_marginStart="20dp"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_below="@id/cyber_struggle_description_three"
+            android:layout_marginTop="20dp"
+            />
+
+        <TextView
+            android:id="@+id/philosophical_background"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/our_milestones"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000000"
+            android:text="Philosophical Background" />
+
+        <TextView
+            android:id="@+id/philosophical_background_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/philosophical_background_description"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            android:layout_below="@+id/philosophical_background"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/covid_19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Covid and Post-Covid"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            android:textSize="14sp"
+            android:layout_below="@id/philosophical_background_description"
+            />
+
+        <TextView
+            android:id="@+id/covid_19_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/covid_19_description"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            android:layout_below="@id/covid_19"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/s46_software"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="S46 Software"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textColor="#000000"
+            android:layout_below="@+id/covid_19_description"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/s46_software_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/s46_software_description"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:textSize="14sp"
+            android:layout_below="@id/s46_software"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/meetOurTeamTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Meet our team"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_black"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            android:layout_below="@id/s46_software_description"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/kubilayCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#2b2d50"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@id/meetOurTeamTextView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/kubilay_team_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/kubilay"
+                    />
+
+                <TextView
+                    android:id="@+id/kubilay_team_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Kubilay Onur Gungor"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@id/kubilay_team_image"
+                    android:layout_toEndOf="@id/kubilay_team_image"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#ffffff"
+                    />
+
+                <TextView
+                    android:id="@+id/kubilay_team_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Founder"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_toRightOf="@id/kubilay_team_image"
+                    android:layout_toEndOf="@id/kubilay_team_image"
+                    android:layout_below="@id/kubilay_team_name"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ffffff"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/aytekCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#2b2d50"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@id/kubilayCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/aytek_team_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/aytek"
+                    />
+
+                <TextView
+                    android:id="@+id/aytek_team_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Aytek Yuksel"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@id/aytek_team_image"
+                    android:layout_toEndOf="@id/aytek_team_image"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#ffffff"
+                    />
+
+                <TextView
+                    android:id="@+id/aytek_team_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Advisor"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_toRightOf="@id/aytek_team_image"
+                    android:layout_toEndOf="@id/aytek_team_image"
+                    android:layout_below="@id/aytek_team_name"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ffffff"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/nihanCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#2b2d50"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@id/aytekCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/nihan_team_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/nihan"
+                    />
+
+                <TextView
+                    android:id="@+id/nihan_team_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Nihan Ecevit"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@id/nihan_team_image"
+                    android:layout_toEndOf="@id/nihan_team_image"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#ffffff"
+                    />
+
+                <TextView
+                    android:id="@+id/nihan_team_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="President (MENA)"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_toRightOf="@id/nihan_team_image"
+                    android:layout_toEndOf="@id/nihan_team_image"
+                    android:layout_below="@id/nihan_team_name"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ffffff"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bulentCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#2b2d50"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@id/nihanCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/bulent_team_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/bulent"
+                    />
+
+                <TextView
+                    android:id="@+id/bulent_team_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Bulent Kuru"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@id/bulent_team_image"
+                    android:layout_toEndOf="@id/bulent_team_image"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#ffffff"
+                    />
+
+                <TextView
+                    android:id="@+id/bulent_team_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Former NAVY SOF"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_toRightOf="@id/bulent_team_image"
+                    android:layout_toEndOf="@id/bulent_team_image"
+                    android:layout_below="@id/bulent_team_name"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ffffff"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cristobalCardView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            app:cardBackgroundColor="#2b2d50"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@id/bulentCardView">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="16dp">
+
+                <ImageView
+                    android:id="@+id/cristobal_team_image"
+                    android:layout_width="120dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/cristobal"
+                    />
+
+                <TextView
+                    android:id="@+id/cristobal_team_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cristobal Alonso"
+                    android:textSize="16sp"
+                    android:layout_toRightOf="@id/cristobal_team_image"
+                    android:layout_toEndOf="@id/cristobal_team_image"
+                    android:fontFamily="@font/poppins_bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="#ffffff"
+                    />
+
+                <TextView
+                    android:id="@+id/cristobal_team_position"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Advisor"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/poppins_medium"
+                    android:layout_toRightOf="@id/cristobal_team_image"
+                    android:layout_toEndOf="@id/cristobal_team_image"
+                    android:layout_below="@id/cristobal_team_name"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:textColor="#ffffff"
+                    />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <TextView
+            android:id="@+id/ourVisionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Our Vision"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_below="@+id/cristobalCardView"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/ourVisionDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="We appreciate technology but we believe in people! Our mission is to merge human nature and its encompassing topics with technology to develop simulations, methodologies, and technological solutions that ensure cybersecurity frontliners remain technically functional, mentally resilient, and attitude-wise primed under any kind of pressure."
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@id/ourVisionTextView"
+            />
+
+        <TextView
+            android:id="@+id/contactUsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Us"
+            android:layout_below="@id/ourVisionDescription"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="16sp"
+            android:textColor="#000000"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/headquartersTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Headquarter: Av. Sabino Arena 8, Planta 2, 48013, Bizkaia, Spain"
+            android:layout_below="@+id/contactUsTextView"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12sp"
+            android:drawableLeft="@drawable/spain_flag"
+            android:drawablePadding="10dp"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/balticsTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Baltics: Parnu Mnt 10, 10148 Haarjuma, Tallinn, Estonia"
+            android:layout_below="@+id/headquartersTextView"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:drawableLeft="@drawable/estonia_flag"
+            android:drawablePadding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/usa_chapterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="USA Charter: 651 N Broad Str, Suite 206, Middletown, Delaware, USA"
+            android:layout_below="@+id/balticsTextView"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:drawableLeft="@drawable/united_states_flag"
+            android:drawablePadding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/bosphorus_charterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bosphorus Charter: Sahkulu Mah. Serdar-i Ekrem Cad. No:15-A Beyoglu, Istanbul, Turkey"
+            android:layout_below="@+id/usa_chapterTextView"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:drawableLeft="@drawable/turkey_svg"
+            android:drawablePadding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/anatolia_charterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anatolia Charter: Kizilcasar Mah. 2683. Sok Incek No 9 Golbasi, Ankara, Turkey"
+            android:layout_below="@+id/bosphorus_charterTextView"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="12sp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:justificationMode="inter_word"
+            android:drawableLeft="@drawable/turkey_svg"
+            android:drawablePadding="10dp"
+            />
+
+        <TextView
+            android:id="@+id/socialMediaTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/anatolia_charterTextView"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:text="Social Media"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/instagramTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/instagram"
+            android:drawableLeft="@drawable/instagram_svg"
+            android:layout_marginStart="20dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            android:layout_below="@+id/socialMediaTextView"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/linkedInTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/linkedin"
+            android:drawableLeft="@drawable/linkedin_svg"
+            android:layout_marginStart="20dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            android:layout_below="@+id/instagramTextView"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/twitterTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/twitter"
+            android:drawableLeft="@drawable/twitter_svg"
+            android:layout_marginStart="20dp"
+            android:drawablePadding="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"
+            android:layout_below="@+id/linkedInTextView"
+            android:layout_marginTop="5dp"
+            />
+
+        <!-- <LinearLayout-->
+        <!-- android:layout_width="match_parent"-->
+        <!-- android:layout_height="wrap_content"-->
+        <!-- android:layout_marginStart="20dp"-->
+        <!-- android:layout_marginEnd="20dp"-->
+        <!-- android:layout_below="@id/s46_software_description"-->
+        <!-- android:layout_marginTop="20dp"-->
+        <!-- android:orientation="vertical">-->
+
+        <!-- <androidx.recyclerview.widget.RecyclerView-->
+        <!-- android:layout_width="match_parent"-->
+        <!-- android:layout_height="wrap_content"-->
+        <!-- android:id="@+id/recyclerView"-->
+        <!-- />-->
+
+        <!-- </LinearLayout>-->
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/communityRibbonTitleTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Community Ribbon Program"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="60dp"
+            android:fontFamily="@font/poppins_bold"
+            android:textSize="18sp"
+            />
+
+        <TextView
+            android:id="@+id/communityRibbonDescriptionOneTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/community_ribbon_description_one"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:layout_below="@id/communityRibbonTitleTextView"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/communityRibbonDescriptionTwoTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/community_ribbon_description_two"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:justificationMode="inter_word"
+            android:layout_below="@id/communityRibbonDescriptionOneTextView"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/communityRibbonDescriptionThreeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details and active ribbons can be found here!"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/poppins_medium"
+            android:layout_below="@+id/communityRibbonDescriptionTwoTextView"
+            />
+
+        <Button
+            android:id="@+id/applyRibbonButton"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Apply a ribbon"
+            android:layout_marginStart="20dp"
+            android:layout_below="@id/communityRibbonDescriptionThreeTextView"
+            android:background="@drawable/button_corners"
+            android:textColor="#ffffff"
+            android:textAllCaps="false"
+            android:layout_marginTop="5dp"
+            />
+
+        <TextView
+            android:id="@+id/replyTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Leave a reply"
+            android:textSize="16sp"
+            android:layout_below="@id/applyRibbonButton"
+            android:fontFamily="@font/poppins_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="30dp"
+            />
+
+        <TextView
+            android:id="@+id/replyDescriptionTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Your email address will not be published. Required fields are marked *"
+            android:textSize="12sp"
+            android:layout_below="@+id/replyTextView"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="8dp"
+            tools:ignore="HardcodedText" />
+
+        <TextView
+            android:id="@+id/commentTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment *"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/replyDescriptionTextView"
+            android:layout_marginStart="20dp"
+            android:fontFamily="@font/poppins_medium"
+            tools:ignore="HardcodedText" />
+
+        <EditText
+            android:id="@+id/commentEditText"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:backgroundTint="#f8f8ff"
+            android:layout_marginTop="10dp"
+            android:paddingStart="10dp"
+            android:layout_below="@+id/commentTextView"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/edittext_corners"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/nameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name *"
+            android:layout_below="@+id/commentEditText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            />
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:backgroundTint="#f8f8ff"
+            android:layout_marginTop="5dp"
+            android:paddingStart="10dp"
+            android:layout_below="@+id/nameTextView"
+            android:background="@drawable/edittext_corners"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            />
+
+        <TextView
+            android:id="@+id/emailTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email *"
+            android:layout_below="@+id/nameEditText"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+<!--        <EditText-->
+<!--            android:id="@+id/emailEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:backgroundTint="#f8f8ff"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:layout_below="@+id/emailTextView"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:paddingStart="10dp"-->
+<!--            android:background="@drawable/edittext_corners"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/websiteTextView"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Website"-->
+<!--            android:layout_below="@+id/emailEditText"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            tools:ignore="HardcodedText" />-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/websiteEditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:backgroundTint="#f8f8ff"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:autoSizeMaxTextSize="5dp"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_below="@+id/websiteTextView"-->
+<!--            android:paddingStart="10dp"-->
+<!--            android:background="@drawable/edittext_corners"-->
+<!--            tools:ignore="RtlSymmetry" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/inquireButton"-->
+<!--            android:layout_width="150dp"-->
+<!--            android:layout_height="50dp"-->
+<!--            android:text="Inquire"-->
+<!--            android:clickable="true"-->
+<!--            android:focusable="true"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/button_corners"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_below="@+id/websiteEditText"-->
+<!--            android:textAllCaps="false"-->
+<!--            tools:ignore="HardcodedText" />-->
+
+<!--        <androidx.cardview.widget.CardView-->
+<!--            android:id="@+id/replyCardView"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:layout_marginTop="50dp"-->
+<!--            app:cardCornerRadius="5dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_below="@+id/applyRibbonButton">-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical"-->
+<!--                android:padding="25dp">-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Leave a reply"-->
+<!--                    android:textSize="16sp"-->
+<!--                    android:fontFamily="@font/poppins_bold"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Your email address will not be published. Required fields are marked *"-->
+<!--                    android:textSize="12sp"-->
+<!--                    android:layout_marginTop="2dp"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Comment *"-->
+<!--                    android:layout_marginTop="20dp"-->
+<!--                    android:fontFamily="@font/poppins_medium"-->
+<!--                    />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/commentEditText"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="150dp"-->
+<!--                    android:backgroundTint="#f8f8ff"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:paddingStart="10dp"-->
+<!--                    android:background="@drawable/edittext_corners"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Name *"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/nameEditText"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:backgroundTint="#f8f8ff"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:paddingStart="10dp"-->
+<!--                    android:background="@drawable/edittext_corners"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Email *"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/emailEditText"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:backgroundTint="#f8f8ff"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:paddingStart="10dp"-->
+<!--                    android:background="@drawable/edittext_corners"-->
+<!--                    />-->
+
+<!--                <TextView-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:text="Website"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    />-->
+
+<!--                <EditText-->
+<!--                    android:id="@+id/websiteEditText"-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:backgroundTint="#f8f8ff"-->
+<!--                    android:layout_marginTop="5dp"-->
+<!--                    android:autoSizeMaxTextSize="5dp"-->
+<!--                    android:paddingStart="10dp"-->
+<!--                    android:background="@drawable/edittext_corners"-->
+<!--                    />-->
+
+<!--                <Button-->
+<!--                    android:id="@+id/inquireButton"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="50dp"-->
+<!--                    android:text="Inquire"-->
+<!--                    android:clickable="true"-->
+<!--                    android:focusable="true"-->
+<!--                    android:layout_marginTop="10dp"-->
+<!--                    android:background="@drawable/button_corners"-->
+<!--                    android:textColor="#ffffff"-->
+<!--                    android:textAllCaps="false"-->
+<!--                    />-->
+
+<!--            </LinearLayout>-->
+
+<!--        </androidx.cardview.widget.CardView>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnIntegrityCheck"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Check App Integrity"-->
+<!--            android:layout_below="@id/replyCardView"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:background="@drawable/button_corners"-->
+<!--            />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/btnSecurityCheck"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Perform Security Check"-->
+<!--            android:layout_marginStart="20dp"-->
+<!--            android:layout_marginEnd="20dp"-->
+<!--            android:background="@drawable/button_corners"-->
+<!--            android:textColor="#ffffff"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_below="@+id/btnIntegrityCheck"-->
+<!--            android:layout_marginBottom="10dp"-->
+<!--            />-->
+
+    </RelativeLayout>
+
+</ScrollView>
