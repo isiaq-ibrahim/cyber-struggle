@@ -8,6 +8,12 @@ During my internship at Cyber Struggle in Fall of 2024, I built a vulnerable And
 5. ⏳ Insufficient session management
 6. 🔍 Reverse engineering and code tampering
 
+One of the critical issues I addressed in this project is the widespread use of hardcoded strings in Android apps. These strings, often embedded within code, may include API keys, user credentials, encryption keys, and server configurations. While convenient, they pose serious security risks, which developers sometimes overlook.
+
+One dangerous vulnerability I implemented is a code injection flaw that executes arbitrary user input via:
+Runtime.getRuntime().exec(userCode);.
+
+This vulnerability is a real eye-opener, as it demonstrates the severe risk of poorly sanitized user inputs. In this case, malicious input could potentially lead to wiping the device memory—an impactful reminder of the consequences of insecure coding practices.
 
 My internship at Cyber Struggle was an enriching experience, offering a blend of technical knowledge and personal growth. Throughout the internship, I gained invaluable insights into both the cybersecurity industry and workplace dynamics, which have prepared me for my future career. Below are some key lessons I learned:
 1. Understanding Vulnerabilities: One of the most significant technical lessons I learned was identifying, exploiting, and mitigating vulnerabilities in mobile applications. By working on the vulnerable mobile app, I gained firsthand experience with issues like authentication bypass, code injection, and session management flaws, all of which are critical in modern-day application security.
