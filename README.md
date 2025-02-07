@@ -1,11 +1,12 @@
 # Cyber Struggle Mobile
 
 During my internship at Cyber Struggle in Fall of 2024, I built a vulnerable Android mobile application demonstrating several common vulnerabilities in Android applications such as:
-1. Hardcoded strings
-2. Insufficient Session Management
-3. Malicious Intent Filters
-4. Reverse Engineering and Code Tampering
-5. Insecure Authentication Bypass
+1. 🔑 Hardcoded credentials of sensitive information (e.g., default developer username/password)
+2. 🚪 Insecure authentication bypass
+3. 🖊️ Code injection vulnerabilities
+4. 📥 Malicious intent filters
+5. ⏳ Insufficient session management
+6. 🔍 Reverse engineering and code tampering
 
 
 My internship at Cyber Struggle was an enriching experience, offering a blend of technical knowledge and personal growth. Throughout the internship, I gained invaluable insights into both the cybersecurity industry and workplace dynamics, which have prepared me for my future career. Below are some key lessons I learned:
